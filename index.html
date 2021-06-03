@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Calculadora</title>
+<link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA+rH8AP///wD+2/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREAAAMzMzMzMxAAAzMzMzMzEAADEDEDEDMQAAMAMAMAMxAAAzMzMzMzEAADEDEDEDMQAAMAMAMAMxAAAzMzMzMzEAADEDEDEDMQAAMAMAMAMxAAAzMzMzMzEAADMiIiICMQAAMiIiICAhAAAzIiIiAjEAAAMzMzMzMADgBwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADgBwAA" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   <div class="calculator">
+
+      <div class="display">   
+         <p id="output">0</p>
+     </div>
+
+      <div class="first-row">
+         <button id="c" onclick="forclear()">C</button>
+         <button id="perc" onclick="perc()">%</button>
+         <button id="div">/</button>
+      </div>
+
+      <div class="second-row">
+        <button id="seven" onclick="fordisplay('7') " >7</button>
+        <button id="eight" onclick="fordisplay('8') ">8</button>
+        <button id="nine" onclick="fordisplay('9') ">9</button>
+        <button id="x" onclick="fordisplay('*')" >X</button>
+      </div>
+
+      <div class="third-row">
+        <button id="four" onclick="fordisplay('4') " >4</button>
+        <button id="five"  onclick="fordisplay('5') " >5</button>
+        <button id="six"  onclick="fordisplay('6') " >6</button>
+        <button id="less" onclick="fordisplay('-')"  >-</button>
+     </div>
+
+     <div class="fourth-row">
+        <button id="one" onclick="fordisplay('1') "  >1</button>
+        <button id="two"  onclick="fordisplay('2') " >2</button>
+        <button id="three"  onclick="fordisplay('3') " >3</button>
+        <button id="plus" onclick="fordisplay('+')"  >+</button>
+     </div>
+
+     <div class="fifth-row">
+        <button id="zero" onclick="fordisplay('0') " >0</button>
+        <button id="dot" >.</button>
+        <button id="equal" onclick="solve()" >=</button>
+     </div>
+
+   </div>
+</body>
+<script src="javascript/calc.js"></script>
+</html>
