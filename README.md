@@ -1,1 +1,2 @@
-# Calculadora feita com JS, HTML e CSS
+# Calculadora
+Análise e Desenvolvimento de Sistemas - Responsive Web Development ✨
